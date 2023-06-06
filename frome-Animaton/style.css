@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    align-items: center;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.parent{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.frame{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin-bottom: 35px;
+}
+.frame h4{
+    margin-top: 45px;
+}
+.frame:nth-child(1):hover{
+    background-color: aliceblue;
+    transform: rotate(45deg);
+    transition: all 0.9s ease-in-out;
+}
+
+.frame:nth-child(2):hover{
+    background-color: aliceblue;
+    transform: rotate(90deg);
+    transition: all 0.9s ease;
+}
+
+.frame:nth-child(3):hover{
+    background-color: aliceblue;
+    transform: rotate(180deg);
+    transition: all 0.9s ease;
+}
